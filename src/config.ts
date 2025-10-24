@@ -108,8 +108,8 @@ export const siteConfig: SiteConfig = {
 
 		// PicFlow API支持(智能图片API)
 		imageApi: {
-			enable: false, // 启用图片API
-			url: "http://domain.com/api_v2.php?format=text&count=4", // API地址，返回每行一个图片链接的文本
+			enable: true, // 启用图片API
+			url: "https://i.xiaofa520.top/?type=url", // API地址，返回每行一个图片链接的文本
 		},
 		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
 		// 项目地址:https://github.com/matsuzaka-yuki/PicFlow-API
@@ -294,19 +294,29 @@ export const profileConfig: ProfileConfig = {
 			url: "https://space.bilibili.com/3546647371975467",
 		},
 		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/xiaoxhan1234",
-		},
-		{
 			name: "QQ",
 			icon: "fa6-brands:qq",
 			url: "https://res.abeim.cn/api/qq/?qq=3084058513",
 		},
 		{
+			name: "Email",
+			icon: "fa6-regular:envelope",
+			url: "mailto:mc@xhani.top",
+		},
+		{
+			name: "GitHub",
+			icon: "fa6-brands:github",
+			url: "https://github.com/xiaoxhan1234",
+		},
+		{
 			name: "Twitch",
 			icon: "fa6-brands:twitch",
 			url: "https://www.twitch.tv/xiaoxhan1234",
+		},
+		{
+			name: "Pixiv",
+			icon: "fa6-brands:pixiv",
+			url: "https://www.pixiv.net/users/111246530",
 		},
 	],
 };
