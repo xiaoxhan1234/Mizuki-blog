@@ -34,8 +34,8 @@ export const siteConfig: SiteConfig = {
 	featurePages: {
 		anime: false, // 番剧页面开关
 		diary: false, // 日记页面开关
-		friends: true, // 友链页面开关
-		projects: true, // 项目页面开关
+		friends: false, // 友链页面开关
+		projects: false, // 项目页面开关
 		skills: false, // 技能页面开关
 		timeline: false, // 时间线页面开关
 		albums: true, // 相册页面开关
@@ -210,31 +210,21 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
+			name: "项目",
+			url: "#",
+			icon: "material-symbols:work",
+			children: [
+				{
+					name: "捏脸网站",
+					icon: "ProfileConfig",
+					url: "neko.xhani.top",
+				},
+				{
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
 			children: [LinkPreset.About],
-		},
-		{
-			name: "Others",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "项目",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
+		        },
 			],
 		},
 	],
@@ -305,7 +295,7 @@ export const commentConfig: CommentConfig = {
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
 	content: "blog刚搭建好,内容正在完善.", // 公告内容
-	closable: true, // 允许用户关闭公告
+	closable: false, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
 		text: "Learn More", // 链接文本
