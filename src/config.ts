@@ -21,7 +21,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "XhaniのBlog",
-	subtitle: "zako zako～",
+	subtitle: "杂鱼 杂鱼～",
 
 	lang: SITE_LANG,
 
@@ -101,14 +101,14 @@ export const siteConfig: SiteConfig = {
 		},
 
 		waves: {
-			enable: true, // 是否启用水波纹效果(这个功能比较吃性能)
+			enable: false, // 是否启用水波纹效果(这个功能比较吃性能)
 			performanceMode: false, // 性能模式：减少动画复杂度(性能提升40%)
 			mobileDisable: false, // 移动端禁用
 		},
 
 		// PicFlow API支持(智能图片API)
 		imageApi: {
-			enable: true, // 启用图片API
+			enable: false, // 启用图片API
 			url: "https://i.xiaofa520.top/?type=url", // API地址，返回每行一个图片链接的文本
 		},
 		// 这里需要使用PicFlow API的Text返回类型,所以我们需要format=text参数
@@ -210,10 +210,10 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
-			name: "About",
+			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About, LinkPreset.Friends],
+			children: [LinkPreset.About],
 		},
 		{
 			name: "Others",
@@ -221,7 +221,7 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
-					name: "Projects",
+					name: "项目",
 					url: "/projects/",
 					icon: "material-symbols:work",
 				},
@@ -303,11 +303,11 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "Announcement", // 公告标题
-	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	title: "公告", // 公告标题
+	content: "blog刚搭建好,内容正在完善.", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
-		enable: true, // 启用链接
+		enable: false, // 启用链接
 		text: "Learn More", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
@@ -440,7 +440,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: true, // 默认关闭樱花特效
+	enable: false, // 默认关闭樱花特效
 	sakuraNum: 21, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
@@ -476,17 +476,17 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "小杂鱼~欢迎来到XhaniのBlog!", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
+			"你想做什么呢?",
+			"小杂鱼不能摸我!<(｀^´)>",
 			"HENTAI!",
-			"Don't bully me like that!",
+			"不..不能,这样欺负我!（",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		home: "点击此处返回主页!", // 首页提示
+		skin: ["想看看我的新衣服吗?", "新衣服看起来很棒~"], // 换装提示
+		close: "QWQ 下次再见~", // 关闭提示
+		link: "https://github.com/xiaoxhan1234", // 关于链接
 	},
 };
 
