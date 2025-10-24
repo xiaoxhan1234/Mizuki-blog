@@ -215,15 +215,25 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:work",
 			children: [
 				{
-      name: '随机图',
-      url: 'https://pic.onani.cn',     
+      name: '捏脸网站',
+      url: 'https://nacho.zako.wf',     
       external: true,                               
                 },
 				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
+      name: 'mikutap',
+      url: 'https://mikutap.zako.wf',     
+      external: true,                               
+                },
+                {
+      name: '哟，安杰罗',
+      url: 'https://angelo.zako.wf',     
+      external: true,                               
+                },
+                {
+      name: '起始页',
+      url: 'https://nav.zako.wf',     
+      external: true,                               
+                },
 			],
 		},
 		{
