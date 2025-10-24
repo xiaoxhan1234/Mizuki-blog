@@ -215,10 +215,10 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:work",
 			children: [
 				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
+      name: '随机图',
+      url: 'https://pic.onani.cn',     
+      external: true,                               
+                },
 				{
 					name: "Timeline",
 					url: "/timeline/",
