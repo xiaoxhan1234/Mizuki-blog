@@ -299,9 +299,14 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/xiaoxhan1234",
 		},
 		{
-			name: "Discord",
-			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			name: "QQ",
+			icon: "fa6-brands:qq",
+			url: "https://res.abeim.cn/api/qq/?qq=3084058513",
+		},
+		{
+			name: "Twitch",
+			icon: "fa6-brands:twitch",
+			url: "https://www.twitch.tv/xiaoxhan1234",
 		},
 	],
 };
