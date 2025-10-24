@@ -34,8 +34,8 @@ export const siteConfig: SiteConfig = {
 	featurePages: {
 		anime: false, // 番剧页面开关
 		diary: false, // 日记页面开关
-		friends: false, // 友链页面开关
-		projects: false, // 项目页面开关
+		friends: true, // 友链页面开关
+		projects: true, // 项目页面开关
 		skills: false, // 技能页面开关
 		timeline: false, // 时间线页面开关
 		albums: true, // 相册页面开关
@@ -210,22 +210,32 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
-			name: "项目",
+			name: "Others",
 			url: "#",
-			icon: "material-symbols:work",
+			icon: "material-symbols:more-horiz",
 			children: [
 				{
-					name: "捏脸网站",
-					icon: "ProfileConfig",
-					url: "neko.xhani.top",
+					name: "项目",
+					url: "/projects/",
+					icon: "material-symbols:work",
 				},
 				{
+					name: "Skills",
+					url: "/skills/",
+					icon: "material-symbols:psychology",
+				},
+				{
+					name: "Timeline",
+					url: "/timeline/",
+					icon: "material-symbols:timeline",
+				},
+			],
+		},
+		{
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
 			children: [LinkPreset.About],
-		        },
-			],
 		},
 	],
 };
