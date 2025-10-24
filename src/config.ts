@@ -210,15 +210,10 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
-			name: "Others",
+			name: "项目",
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
-				{
-					name: "项目",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
 				{
 					name: "Skills",
 					url: "/skills/",
