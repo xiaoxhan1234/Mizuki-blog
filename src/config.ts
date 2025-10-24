@@ -212,7 +212,7 @@ export const navBarConfig: NavBarConfig = {
 		{
 			name: "项目",
 			url: "#",
-			icon: "material-symbols:more-horiz",
+			icon: "material-symbols:work",
 			children: [
 				{
 					name: "Skills",
