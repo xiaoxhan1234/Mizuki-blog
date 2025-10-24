@@ -235,7 +235,7 @@ export const navBarConfig: NavBarConfig = {
 			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [LinkPreset.About，LinkPreset.Friends],
+			children: [LinkPreset.About, LinkPreset.Friends],
 		},
 	],
 };
