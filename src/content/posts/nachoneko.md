@@ -5,7 +5,7 @@ pinned: true
 description: 被甘城猫猫下线的捏脸网站.
 tags: [甘城猫猫, 捏脸网站, Markdown]
 category: 资源分享
-licenseName: "CC BY 4.0"
+licenseName: ""
 author: XiaoXhan1234
 sourceLink: ""
 draft: false
