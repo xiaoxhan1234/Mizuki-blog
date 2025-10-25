@@ -9,7 +9,7 @@ licenseName: "CC BY 4.0"
 author: XiaoXhan1234
 sourceLink: ""
 draft: false
-image: ![1000274599.ico](https://photo.zako.wf/i/2025/10/25/68fc7213a8f13.ico)
+image: https://photo.zako.wf/i/2025/10/25/68fc7213a8f13.ico
 ---
 # Amachiromaker & 捏脸网站
 
