@@ -309,7 +309,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "blog刚搭建好,内容正在完善.", // 公告内容
+	content: "blog已完成评论系统,happy！.", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
