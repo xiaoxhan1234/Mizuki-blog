@@ -1,21 +1,15 @@
 ---
-title: Amachiromaker & 捏脸网站
-published: 2025-10-25
+title: Markdown Tutorial
+published: 2025-01-20
 pinned: true
-description: 复活被甘城猫猫下线的捏脸网站
-tags: [Markdown, 捏脸，资源分享]
-category: 捏脸
-licenseName: "MIT"
-author: xiaoxhan1234
-sourceLink: ""
-draft: true
-date: 2025-10-25
-image:
- url: 'https://nacho.zako.wf/favicon.ico'
- alt: '捏脸网站图标'
-pubDate: 2025-10-25
+description: A simple example of a Markdown blog post.
+tags: [Markdown, Blogging]
+category: Examples
+licenseName: "Unlicensed"
+author: emn178
+sourceLink: "https://github.com/emn178/markdown"
+draft: false
 ---
-
 # Amachiromaker & 捏脸网站
 
 ## 项目简介
@@ -57,3 +51,12 @@ pubDate: 2025-10-25
 - 请确保访问的是正确网站,避免钓鱼或恶意网站.
 - 如果网站无法访问,请联系邮箱mc@xhani.top
 - 请遵守相关法律法规,不得用于非法用途.
+```yaml
+title: "我的第一篇文章"
+pubDate: 2024-01-15
+updatedDate: 2024-01-16
+description: "这是文章描述"
+tags: ["技术", "教程"]
+category: "技术分享"
+cover: "/images/cover.jpg"
+draft: false
